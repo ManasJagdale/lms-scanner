@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Local credentials and LMS data
+lms_token.txt
+lms_dump.json
+lms_files.json
+LMS_Files/
+lms_bundle_*.json
+claude_output_*.json
+lms_prompt.txt
+lms_problems.json
+lms_manual_attach.txt
+lms_extractions.json
+
+# Private generated runs and exports
+runs/
+bundle_output/
+assessments.csv
+assessments.json
